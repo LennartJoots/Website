@@ -1,0 +1,36 @@
+.location{
+    text-align: center;
+
+}
+.Longitude{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 10cm;
+    background-color: lightgreen;
+}
+.Latitude{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 10cm;
+    background-color: lightgreen;
+}
+.Country {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 10cm;
+    background-color: lightgreen;
+}
+.City{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 10cm;
+    background-color: lightgreen;
+  
+}
+body{
+    background-color: lavender;
+}
