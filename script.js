@@ -14,5 +14,11 @@ async function fafafa(Address) {
     const data = await response.json()
     console.log(data)
     const Long = document.querySelector(".Longitude")
-    Long.innerHTML +="<p>" + data.lon +"</p>";
+    Long.innerHTML +=data.lon;
+    const Lati = document.querySelector(".Latitude")
+    Lati.innerHTML +=data.lat
+    const Count = document.querySelector(".Country")
+    Count.innerHTML +=data.country
+    const Cit = document.querySelector(".City")
+    Cit.innerHTML +=data.city
 }
