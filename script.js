@@ -8,9 +8,9 @@ element.addEventListener("keydown", function (event) {
 });
 
 async function fafafa(Address) {
-    forceHTTPS: false
+    
     const url = "http://ip-api.com/json/" + Address
-    const response = await fetch(url)
+    const response = await fetch(url, {forceHTTPS: false})
     const data = await response.json()
     console.log(data)
     if(data.lon && data.lat && data.lon && data.country && data.city != "undefined"){
